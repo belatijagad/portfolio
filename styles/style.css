@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap");
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #FEFF9F;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #78DEC9;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+}
+
+.text-center {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #07101A;
+}
+
+.container {
+  width: 1024px;
+  margin: 20px auto;
+}
+
+.jumbotron {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.jumbotron .jumbotron-fragment {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jumbotron .jumbotron-fragment .introduction, .jumbotron .jumbotron-fragment .about {
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 24px 0;
+}
+
+.jumbotron .jumbotron-fragment .introduction {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.jumbotron .jumbotron-fragment .about {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.jumbotron .jumbotron-fragment .photo {
+  height: 500px;
+  width: auto;
+}
+
+.past-project {
+  margin: 24px;
+}
+
+.portfolio-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.portfolio-wrapper .portfolio-item {
+  width: 400px;
+  padding: 12px;
+}
+
+.portfolio-wrapper .portfolio-item .portfolio-text {
+  margin: 12px;
+}
+
+.portfolio-wrapper .portfolio-item .portfolio-text a {
+  color: #FEFF9F;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.portfolio-wrapper .portfolio-item .portfolio-picture {
+  width: 100%;
+  height: 300px;
+  background-color: #78DEC9;
+}
+/*# sourceMappingURL=style.css.map */
