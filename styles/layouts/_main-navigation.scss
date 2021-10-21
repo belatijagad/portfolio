@@ -1,0 +1,34 @@
+@use '../abstract/_abstracts-dir' as *;
+@use '../base/_base-dir' as *;
+
+nav {
+    position : fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    .container {
+        @include displayFlex(row);
+        justify-content : space-between;
+        align-items : center;
+
+        ul {
+            @include displayFlex(row);
+            list-style-type: none;
+
+            li {
+                padding : 16px;
+                margin : 8px;
+
+                a {
+                    color : rgba($color: $neutral-color, $alpha: 0.75);
+                    font-family : $primary-font;
+                    text-decoration : none;
+                    transition: .5s;
+                    &:hover {
+                        color : $neutral-color;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+@use '../abstract/mixins' as *;
+@use '../abstract/breakpoints' as *;
+
+.container {
+    margin : 0 auto;
+
+    @include sm {
+        width : 100%;
+    }
+    
+    @include xl {
+        width : 1024px;
+    }
+}

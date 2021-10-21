@@ -1,0 +1,125 @@
+.p {
+    &-0{
+        padding : 128px;
+    }
+    &-1{
+        padding : 64px;
+    }
+    &-2{
+        padding : 32px;
+    }
+    &-3{
+        padding : 16px;
+    }
+    &-4{
+        padding : 8px;
+    }
+    &-5{
+        padding : 4px;
+    }
+
+    &-vertical{
+        &-0{
+            padding : 128px 0;
+        }
+        &-1{
+            padding : 64px 0;
+        }
+        &-2{
+            padding : 32px 0;
+        }
+        &-3{
+            padding : 16px 0;
+        }
+        &-4{
+            padding : 8px 0;
+        }
+        &-5{
+            padding : 4px 0;
+        }
+    }
+    
+    &-horizontal {
+        &-0{
+            padding : 0 128px;
+        }
+        &-1{
+            padding : 0 64px;
+        }
+        &-2{
+            padding : 0 32px;
+        }
+        &-3{
+            padding : 0 16px;
+        }
+        &-4{
+            padding : 0 8px;
+        }
+        &-5{
+            padding : 0 4px;
+        }
+    }
+}
+
+.m {
+    &-0{
+        margin : 128px;
+    }
+    &-1{
+        margin : 64px;
+    }
+    &-2{
+        margin : 32px;
+    }
+    &-3{
+        margin : 16px;
+    }
+    &-4{
+        margin : 8px;
+    }
+    &-5{
+        margin : 4px;
+    }
+
+    &-vertical{
+        &-0{
+            margin : 128px 0;
+        }
+        &-1{
+            margin : 64px 0;
+        }
+        &-2{
+            margin : 32px 0;
+        }
+        &-3{
+            margin : 16px 0;
+        }
+        &-4{
+            margin : 8px 0;
+        }
+        &-5{
+            margin : 4px 0;
+        }
+    }
+
+    &-horizontal {
+        &-0{
+            margin : 0 128px;
+        }
+        &-1{
+            margin : 0 64px;
+        }
+        &-2{
+            margin : 0 32px;
+        }
+        &-3{
+            margin : 0 16px;
+        }
+        &-4{
+            margin : 0 8px;
+        }
+        &-5{
+            margin : 0 4px;
+        }
+    }
+}

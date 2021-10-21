@@ -1,0 +1,21 @@
+//Warna
+$background-color : #07101A;
+$neutral-color : #FFFFFF;
+$highlight-color : #FEFF9F;
+$primary-color : #78DEC9;
+
+.neutral-color {
+    color : $neutral-color;
+}
+
+.highlight-color {
+    color : $highlight-color;
+}
+
+.primary-color {
+    color : $primary-color;
+}
+
+//Font
+$primary-font : 'Montserrat', sans-serif;
+$secondary-font : 'Raleway', sans-serif;

@@ -1,0 +1,81 @@
+@use '../abstract/_abstracts-dir' as *;
+
+main {
+    .jumbotron {
+        height : 100vh;
+        
+        .container {
+            @include displayFlex(row);
+            align-items: center;
+
+            .title-wrapper {
+                @include displayFlex(column);
+                flex-basis: 50%;
+                justify-content : center;
+                height : 100vh;
+            }
+
+            .photo-wrapper {
+                @include displayFlex(column);
+                flex-basis : 50%;
+                justify-content : center;
+                align-items : center;
+                height : 100vh;
+            }
+        }
+    }
+
+    .projects {
+        @include displayFlex(column);
+
+        .projects-wrapper {
+            @include displayFlex(row);
+            justify-content : space-evenly;
+            flex-wrap : wrap;
+
+            .projects-item {
+                @include displayFlex(column);
+                transition : .75s;
+                a {
+                    color : $highlight-color;
+                    text-decoration : none;
+                    transition : .5s;
+                    &:hover {
+                        color : rgba($color: $neutral-color, $alpha: 1.0);
+                    }
+                }
+                .projects-item-box {
+                    @include size(200px, 300px);
+                    background-color : $primary-color;
+                    img {
+                        width : auto;
+                        height : 200px;
+                    }
+                }
+
+                &:hover {
+                    transform : scale(1.2);
+                }
+            }
+        }
+    }
+
+    .contact {
+        .container {
+            .contact-wrapper {
+                @include displayFlex(row);
+                justify-content : space-evenly;
+
+                .contact-logo {
+                    color : $neutral-color;
+                    i {
+                        transition : .3s;
+                        &:hover {
+                            color : #2A6F7F;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

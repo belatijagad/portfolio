@@ -4,52 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belati Jagad Bintang Syuhada - Personal Website</title>
+    <title>Belati Jagad Bintang Syuhada - Portfolio Website</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <!-- Jumbotron -->
-    <div class="container">
-        <div class="jumbotron">
-            <div class="jumbotron-fragment">
-                <div>
-                    <img class="photo" src="src/abel.png" alt="">
-                </div>
-            </div>
-            <div class="jumbotron-fragment">
-                <div class="introduction">
-                    <p>Hello, I'm</p>
-                    <h1>BELATI JAGAD<br>BINTANG SYUHADA</h1>
-                </div>
-                <div class="about">
-                    <h3>ABOUT ME</h3>
-                    <p>A 17 year-old student from Jakarta that has a strong enthusiasm towards mathematics and informatics.</p>
-                </div>
-            </div>
+    <!-- Navigation bar -->
+    <nav>
+        <div class="container flex">
+            <a href="">
+                <img class="icon" src="src/icon-light.svg" alt="">
+            </a>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contacts</a></li>
+            </ul>
         </div>
-    </div>
-    
-    <!-- Portfolio -->
-    <div class="container">
-        <h3 class="text-center past-project">PAST PROJECTS</h3>
-        <div class="portfolio-wrapper">
-            <div class="portfolio-item">
-                <div class="portfolio-text">
-                    <a href="https://fivecybercommunity.github.io/home" target="_blank">Five Cyber Community Website</a>
-                </div>
-                <div class="portfolio-picture">
+    </nav>
 
+    <!-- Website content -->
+    <main>
+        <!-- About -->
+        <section class="jumbotron">
+            <div class="container">
+                <div class="title-wrapper">
+                    <div class="name m-vertical-2">
+                        <h4 class="secondary-font neutral-color medium">Hello, I'm</h4>
+                        <h1 class="primary-font highlight-color bold">Belati Jagad Bintang Syuhada</h1>
+                    </div>
+                    <div class="about m-vertical-2">
+                        <h4 class="primary-font primary-color medium">ABOUT ME</h4>
+                        <p class="secondary-font neutral-color regular">A 17 years-old student from Jakarta that has strong enthusiasm towards mathematics and informatics.</p>
+                    </div>
+                </div>
+                <div class="photo-wrapper">
+                    <div class="photo">
+                        <img src="src/abel.png" alt="" height="400px" width="auto">
+                    </div>
                 </div>
             </div>
-            <div class="portfolio-item">
-                <div class="portfolio-text">
-                    <a href="https://pilketos.sman5bdg.sch.id" target="_blank">Student Council President Election Website</a>
-                </div>
-                <div class="portfolio-picture">
+        </section>
 
+        <!-- Projects -->
+        <section class="projects m-vertical-0">
+            <div class="container p-vertical-1">
+                <h4 class="primary-font primary-color semi-bold text-center">PAST PROJECTS</h4>
+                <div class="projects-wrapper m-vertical-2">
+                    <div class="projects-item">
+                        <a class="primary-font semi-bold m-vertical-5" href="https://fivecybercommunity.github.io/home" target="_blank">Five Cyber Community Website</a>
+                        <div class="projects-item-box">
+                            <a href="https://fivecybercommunity.github.io/home" target="_blank">
+                                <img src="src/projects/five-cyber-community-min.png" alt="">
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="projects-item">
+                        <a class="primary-font semi-bold m-vertical-5" href="https://pilketos.sman5bdg.sch.id" target="_blank">Student Council President Election</a>
+                        <div class="projects-item-box">
+                            <a href="https://pilketos.sman5bdg.sch.id" target="_blank">
+                                <img src="src/projects/student-council-president-election-min.png" alt="">
+                            </a>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+
+        <section class="contact m-vertical-0">
+            <div class="container">
+                <h4 class="primary-font primary-color semi-bold text-center">Interested to do a project together? Contact me!</h4>
+                <div class="contact-wrapper">
+                    <a href="https://github.com/belatijagad" target="_blank" class="contact-logo m-vertical-2" role="button">
+                        <i class="fab fa-github fa-5x"></i>
+                    </a>
+                    <a href="https://instagram.com/belatijagad" target="_blank" class="contact-logo m-vertical-2" role="button">
+                        <i class="fab fa-instagram fa-5x"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <section class="footer p-vertical-2">
+            <div class="container">
+                <h6 class="primary-font footer-text regular">© 2021 — Belati Jagad Bintang Syuhada</h6>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Import fontawesome logos -->
+    <script
+      src="https://kit.fontawesome.com/d0abd30197.js"
+      crossorigin="anonymous"
+    ></script>
 </body>
 </html>
